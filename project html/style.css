@@ -1,0 +1,51 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.herosection{
+color: white;
+min-height: 100vh;
+background:url("https://images.unsplash.com/photo-1684020171241-3092315f2840?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+:root {
+--text: 2rem;
+--head:calc(1rem + 5vw);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 10vh;
+padding:0rem 1rem;
+
+}
+.navbar a{
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: var(--text);
+
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.herotext{
+height: 90vh;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: calc(--head);
+}
